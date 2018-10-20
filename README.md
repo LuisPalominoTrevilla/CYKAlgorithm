@@ -1,5 +1,9 @@
 # CYK Algorithm
 
+**Requirements**:
+- Have node installed
+- Node version at least 8.12
+
 **Instructions**:
 
 1. Gramatic must be on FNCh for the algorithm to work
