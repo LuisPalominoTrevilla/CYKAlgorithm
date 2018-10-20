@@ -12,12 +12,13 @@
     - Where S is the initial symbol
     - Use spaces to separate **different** productions
     - The entire gramatic must me introduced using "" around it
-3. Both the gramatic and the word are introduced as arguments
-4. Sample command to run the program: 
+3. Sometimes, the word also needs to be introduced using "" arount it (e.g. when using [])
+4. Both the gramatic and the word are introduced as arguments
+5. Sample command to run the program: 
     ~~~~
     node GLC.js "S->AB|SS|AC|BD|BA A->a B->b C->SB D->SA" ab
     ~~~~
-5. Sample output:
+6. Sample output:
     ~~~
     S=>AB=>aB=>ab
     ~~~
